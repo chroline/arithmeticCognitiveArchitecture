@@ -941,7 +941,7 @@ func (ss *Sim) ConfigGui() *gi.Window {
 		Tooltip: "Opens your browser on the README file that contains instructions for how to run this model.",
 		Active:  egui.ActiveAlways,
 		Func: func() {
-			gi.OpenURL("https://github.com/emer/leabra/blob/master/examples/ra25/README.md")
+			gi.OpenURL("https://github.com/chroline/arithmeticCognitiveArchitecture/blob/main/Gawin_ArithmeticCognitiveArchitecture.pdf")
 		},
 	})
 	ss.GUI.FinalizeGUI(false)
